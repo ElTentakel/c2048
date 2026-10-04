@@ -1,0 +1,5 @@
+.scorebox { background: #bbada0; color: #f9f6f2; border-radius: 8px; padding: 4px 14px; min-width: 64px; }
+.scorebox .caption { font-size: 0.75em; font-weight: bold; color: #eee4da; }
+.scorebox .value { font-size: 1.3em; font-weight: 800; }
+.gametitle { font-size: 1.8em; font-weight: 800; color: #f9f6f2; background: #edc22e;
+             border-radius: 8px; padding: 6px 12px; }

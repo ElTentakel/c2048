@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=Application
+Name=c2048
+Comment=Slide the tiles and reach 2048
+Comment[de]=Schiebe die Kacheln zu 2048
+Exec=c2048
+Icon=io.github.ElTentakel.c2048
+Terminal=false
+Categories=Game;LogicGame;
+Keywords=2048;puzzle;tiles;numbers;
+Keywords[de]=2048;Puzzle;Kacheln;Zahlen;
+StartupNotify=true
+X-Purism-FormFactor=Workstation;Mobile;

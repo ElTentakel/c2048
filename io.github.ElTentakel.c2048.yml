@@ -1,0 +1,26 @@
+# Flatpak manifest for local and CI builds (builds the working tree).
+# The manifest submitted to Flathub uses a git source with tag + commit instead.
+id: io.github.ElTentakel.c2048
+runtime: org.gnome.Platform
+runtime-version: '51'
+sdk: org.gnome.Sdk
+command: c2048
+finish-args:
+  - --share=ipc
+  - --socket=wayland
+  - --socket=fallback-x11
+  - --device=dri
+cleanup:
+  - /include
+  - /lib/pkgconfig
+modules:
+  - name: c2048
+    buildsystem: meson
+    sources:
+      - type: dir
+        path: .
+        skip:
+          - build
+          - build-flatpak
+          - .flatpak-builder
+          - repo

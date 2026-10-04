@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- SPDX-License-Identifier: CC0-1.0 -->
+<component type="desktop-application">
+  <id>io.github.ElTentakel.c2048</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>MIT</project_license>
+  <name>c2048</name>
+  <summary>Slide the tiles and reach 2048</summary>
+  <summary xml:lang="de">Schiebe die Kacheln zu 2048</summary>
+  <developer id="io.github.eltentakel">
+    <name>ElTentakel</name>
+  </developer>
+  <description>
+    <p>
+      The classic sliding puzzle, made for Linux phones and desktops.
+      Merge equal numbers until you reach the 2048 tile.
+    </p>
+    <p>Three difficulty levels:</p>
+    <ul>
+      <li>Easy: only 2s appear, up to 100 moves can be undone</li>
+      <li>Medium: every second new tile is a 4, no undo</li>
+      <li>Hardest possible: an opponent places every new tile where it hurts you most</li>
+    </ul>
+    <p>
+      Each level keeps its own game and high score. Play with swipes,
+      arrow keys, WASD or vim keys.
+    </p>
+    <p xml:lang="de">
+      Das klassische Schiebe-Puzzle für Linux-Handys und den Desktop.
+      Verschmelze gleiche Zahlen, bis die Kachel 2048 entsteht.
+    </p>
+    <p xml:lang="de">Drei Schwierigkeitsgrade:</p>
+    <ul>
+      <li xml:lang="de">Leicht: nur Zweier, bis zu 100 Züge rückgängig</li>
+      <li xml:lang="de">Mittel: jede zweite neue Kachel ist eine Vier, kein Rückgängig</li>
+      <li xml:lang="de">Schwerstmöglich: ein Gegner setzt jede neue Kachel dorthin, wo sie dir am meisten schadet</li>
+    </ul>
+    <p xml:lang="de">
+      Jede Stufe hat ihren eigenen Spielstand und Rekord. Steuerung per Wischen,
+      Pfeiltasten, WASD oder Vim-Tasten.
+    </p>
+  </description>
+  <launchable type="desktop-id">io.github.ElTentakel.c2048.desktop</launchable>
+  <url type="homepage">https://github.com/ElTentakel/c2048</url>
+  <url type="bugtracker">https://github.com/ElTentakel/c2048/issues</url>
+  <url type="vcs-browser">https://github.com/ElTentakel/c2048</url>
+  <categories>
+    <category>Game</category>
+    <category>LogicGame</category>
+  </categories>
+  <keywords>
+    <keyword>2048</keyword>
+    <keyword>puzzle</keyword>
+    <keyword>tiles</keyword>
+  </keywords>
+  <branding>
+    <color type="primary" scheme_preference="light">#edc22e</color>
+    <color type="primary" scheme_preference="dark">#776e65</color>
+  </branding>
+  <requires>
+    <display_length compare="ge">360</display_length>
+  </requires>
+  <supports>
+    <control>touch</control>
+    <control>keyboard</control>
+    <control>pointing</control>
+  </supports>
+  <screenshots>
+    <screenshot type="default">
+      <caption>Medium difficulty</caption>
+      <image>https://raw.githubusercontent.com/ElTentakel/c2048/v1.0.0/data/screenshots/game.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>Hardest possible difficulty, dark style</caption>
+      <image>https://raw.githubusercontent.com/ElTentakel/c2048/v1.0.0/data/screenshots/evil.png</image>
+    </screenshot>
+  </screenshots>
+  <content_rating type="oars-1.1"/>
+  <releases>
+    <release version="1.0.0" date="2026-10-04">
+      <description>
+        <p>First release.</p>
+      </description>
+    </release>
+  </releases>
+</component>
